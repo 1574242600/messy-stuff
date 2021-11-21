@@ -1,0 +1,7 @@
+#ide
+.idea/
+
+#图片
+data/**/*.*
+!data/add.php
+!data/data.php
