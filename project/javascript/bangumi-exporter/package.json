@@ -1,0 +1,16 @@
+{
+  "name": "bangumi-exporter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nworm",
+  "license": "WTFPL",
+  "dependencies": {
+    "node-fetch": "^3.2.4"
+  }
+}
