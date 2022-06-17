@@ -1,5 +1,5 @@
 # bangumi-exporter
-从 BGM 导入公开的动画观看进度到 MAL  
+从 BGM 导入动画观看进度到 MAL  
 
 ## 使用方法
 1. `pnpm install`
