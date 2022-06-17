@@ -6,7 +6,7 @@ const MAL_ORIGIN = 'https://api.myanimelist.net'
 
 const BGM_TOKEN = '';
 const MAL_TOKEN = '';
-
+const BGM_USER_ID = '';
 
 
 
@@ -14,7 +14,7 @@ const MAL_TOKEN = '';
     const Bgm = new BGMApi(BGM_ORIGIN, BGM_TOKEN);
     const Mal = new MALApi(MAL_ORIGIN, MAL_TOKEN);
    
-    const b_UserAnimes = await b_GetUserAllAnimes(Bgm, 'nworm');
+    const b_UserAnimes = await b_GetUserAllAnimes(Bgm, BGM_USER_ID);
     
     const notFound = [];
     for (const { BGMId, type, epStatus, rate } of b_UserAnimes) {
