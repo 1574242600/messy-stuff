@@ -66,11 +66,11 @@ class BGMApi {
     }
 
     getMe() {
-        return this.ApiRequest.get('/v0/me')
+        return this._get('/v0/me')
     }
 
     getSubject(id) {
-        return this.ApiRequest.get(`/v0/subjects/${ id }`)
+        return this._get(`/v0/subjects/${ id }`)
     }
 
     getUserCollections(userId, {
@@ -86,7 +86,15 @@ class BGMApi {
         if (offset) SearchParmas.append('offset', offset);
 
         const path = `/v0/users/${ userId }/collections?${ SearchParmas.toString() }`;
-        return this.ApiRequest.get(path)
+        return this._get(path)
+    }
+    
+    _get(path, init = {}) {
+        init.headers = Object.assign({}, init.headers, {
+            'User-Agent': '1574242600/bangumi2myanimelist (https://github.com/1574242600/messy-stuff/tree/main/project/javascript/bangumi-exporter)',
+        });
+        
+        return this.ApiRequest.get(path, init);
     }
 }
 
