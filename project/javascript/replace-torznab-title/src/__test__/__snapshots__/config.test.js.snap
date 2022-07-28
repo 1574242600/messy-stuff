@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadConfig 1`] = `
+Object {
+  "host": "127.0.0.1",
+  "port": 7724,
+  "rules": Object {
+    "name": Object {
+      "repRule": Object {
+        "repRule1": Object {
+          "is": "match",
+          "parse": "[(.*?)][(.*?)]",
+        },
+        "repRule2": Object {
+          "is": "match",
+          "parse": "(.*?)\\\\(.*?)",
+          "template": "[$1] [$2]",
+        },
+      },
+      "url": "https://example.com/",
+    },
+  },
+}
+`;

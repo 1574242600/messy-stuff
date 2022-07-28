@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`replaceAllTitle 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
+<rss version=\\"2.0\\" xmlns:atom=\\"http://www.w3.org/2005/Atom\\" xmlns:torznab=\\"http://torznab.com/schemas/2015/feed\\">
+  <channel>
+    <item>
+      <title>[&#x5e7b;&#x6afb;&#x5b57;&#x5e55;&#x7d44;] &#x90aa;&#x795e;&#x8207;&#x5eda;&#x4e8c;&#x75c5;&#x5c11;&#x5973;X / Jashin-chan Dropkick X [03][BIG5_MP4][1920X1080]</title>
+    </item>
+    <item>
+      <title>[&#x5e7b;&#x6a31;&#x5b57;&#x5e55;&#x7ec4;] &#x90aa;&#x795e;&#x4e0e;&#x53a8;&#x4e8c;&#x75c5;&#x5c11;&#x5973;X / Jashin-chan Dropkick X [03][GB_MP4][1920X1080]</title>
+    </item>
+    <item>
+      <title>[&#x5e7b;&#x6afb;&#x5b57;&#x5e55;&#x7d44;] &#x90aa;&#x795e;&#x8207;&#x5eda;&#x4e8c;&#x75c5;&#x5c11;&#x5973;X / Jashin-chan Dropkick X [03][BIG5_MP4][1280X720]</title>
+    
+    </item>
+    <item>
+      <title>[&#x5e7b;&#x6a31;&#x5b57;&#x5e55;&#x7ec4;] &#x90aa;&#x795e;&#x4e0e;&#x53a8;&#x4e8c;&#x75c5;&#x5c11;&#x5973;X / Jashin-chan Dropkick X [03][GB_MP4][1280X720]</title>
+    </item>
+    <item>
+      <title>[LoliHouse] &#x90aa;&#x795e;&#x4e0e;&#x53a8;&#x4e8c;&#x75c5;&#x5c11;&#x5973;X / Jashin-chan Dropkick X - 03 [WebRip 1080p HEVC-10bit AAC][&#x82f1;&#x6587;&#x5185;&#x5c01;&#x5b57;&#x5e55;]</title>
+    </item>
+    <item>
+      <title>[NC-Raws] &#x90aa;&#x795e;&#x4e0e;&#x53a8;&#x4e8c;&#x75c5;&#x5c11;&#x5973; &#x7b2c;&#x4e09;&#x5b63; / Jashin-chan Dropkick X - 03 (B-Global 1920x1080 HEVC AAC MKV)</title>
+    </item>
+    <item>
+      <title>&#x3010;&#x5e7b;&#x6afb;&#x5b57;&#x5e55;&#x7d44;&#x3011;&#x3010;4&#x6708;&#x65b0;&#x756a;&#x3011;&#x3010;&#x90aa;&#x795e;&#x8207;&#x5eda;&#x4e8c;&#x75c5;&#x5c11;&#x5973; &#x7b2c;&#x4e8c;&#x5b63; Jashin-chan Dropkick S2&#x3011;&#x3010;03~04&#x3011;&#x3010;BIG5_MP4&#x3011;&#x3010;1920X1080&#x3011;</title>
+      
+    </item>
+    <item>
+      <title>&#x3010;&#x5e7b;&#x6a31;&#x5b57;&#x5e55;&#x7ec4;&#x3011;&#x3010;4&#x6708;&#x65b0;&#x756a;&#x3011;&#x3010;&#x90aa;&#x795e;&#x4e0e;&#x53a8;&#x4e8c;&#x75c5;&#x5c11;&#x5973; &#x7b2c;&#x4e8c;&#x5b63; Jashin-chan Dropkick S2&#x3011;&#x3010;03~04&#x3011;&#x3010;GB_MP4&#x3011;&#x3010;1920X1080&#x3011;</title>
+    </item>
+  </channel>
+</rss>"
+`;

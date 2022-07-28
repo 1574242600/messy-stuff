@@ -1,0 +1,11 @@
+rules: 
+  name:
+    url: https://example.com/
+    repRule:
+      repRule1:
+        is: match
+        parse: '[(.*?)][(.*?)]'
+      repRule2:
+        is: match
+        parse: '(.*?)\(.*?)'
+        template: '[$1] [$2]'
