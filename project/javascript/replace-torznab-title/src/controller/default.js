@@ -5,14 +5,14 @@ import replaceAllTitle from "../utils/replace.js";
 async function handler(req, res) {
     const { rules } = config || {};
     const url = new URL(req.url, `http://${req.headers.host}`);
-    const name = url.pathname.split("/")[0];
+    const name = url.pathname.split("/")[1];
 
     const rule = rules[name] || null;
 
     if (rule) {
-        const { url, repRule } = rule;
+        const { url: urlStr, repRule } = rule;
 
-        const xmlStr = await fetch(url + url.search)
+        const xmlStr = await fetch(urlStr + url.search)
             .then(r => r.text());
         
         res.writeHead(200, { "Content-Type": "application/xml" });
