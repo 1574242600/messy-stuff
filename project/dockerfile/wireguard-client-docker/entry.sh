@@ -10,6 +10,15 @@ main() {
   trap '_down' TERM INT
   trap '_error' ERR ABRT
 
+  ### https://github.com/jordanpotter/docker-wireguard/blob/74c36454059b52814bb7701ae2ebc235cd72b300/entrypoint.sh#L20-L26
+  if [[ "$(cat /proc/sys/net/ipv4/conf/all/src_valid_mark)" != "1" ]]; then
+    echo "sysctl net.ipv4.conf.all.src_valid_mark=1 is not set" >&2
+    exit 1
+  fi
+
+  sed -i "s:sysctl -q net.ipv4.conf.all.src_valid_mark=1:echo Skipping setting net.ipv4.conf.all.src_valid_mark:" /usr/bin/wg-quick
+  ###
+  
   ip rule add from $DEFAULT_ROUTE_IP lookup main prio 0
   for config_name in $(echo $CONFIG_NAMES); do
     echo ;
