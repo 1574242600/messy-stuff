@@ -18,7 +18,7 @@
     "dependencies": {
         "cheerio": "1.0.0-rc.12",
         "js-yaml": "^4.1.0",
-        "node-fetch": "^3.2.9",
+        "node-fetch": "^3.2.10",
         "winston": "^3.8.1",
         "zod": "^3.17.10"
     }
